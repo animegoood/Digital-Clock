@@ -1,7 +1,7 @@
 const hour = document.getElementById('hour');
 const minute = document.getElementById('minute');
 const second = document.getElementById('second');
-const porgress =document.getElementById('progerssbar');
+
 
 
 function liveclock(){
@@ -14,7 +14,7 @@ function liveclock(){
 	minute.textContent= min;
 	second.textContent= sec;
 
-	porgressbar.style.width=(sec / 60) * 100 + '%' ;
+
 
 
 
